@@ -1,0 +1,17 @@
+.minorsContainer{
+    margin-top: 1em;
+}
+
+
+
+.minorsContainer > h5{
+    margin-left: 3em;
+}
+
+.minorAccordContainer{
+    margin-left: 1em;
+}
+
+.courseListItem{
+    margin-left: 1em;
+}

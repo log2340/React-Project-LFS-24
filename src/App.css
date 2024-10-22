@@ -1,0 +1,129 @@
+body{
+  display: block !important;
+  padding-top: 0px;
+}
+
+.App{
+  text-align: center;
+  padding: 0 3vw 3vw;
+  background-color: whitesmoke;
+
+}
+
+.Sticky{
+  text-align: center;
+  position: sticky;
+  top: 0px;
+  margin: 0px;
+  background-color: #1b1c1d;
+  color: white; 
+  padding: 0px;
+  font-size: 20px;
+  font-weight: bold;
+  z-index: 999;
+
+}
+
+.stick > h1{
+  margin: 0px;
+}
+
+.About{
+  width: 85vw;
+}
+
+.About>h1{
+  margin:0px;
+}
+
+.aboutQuote{
+  padding:0 2em;
+  border: 3px solid gray;
+  border-radius: 15px;
+}
+
+.StickyMenu{
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.courseContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
+}
+
+.employHeader{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.employHeaderContent{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.employHeaderContentItem{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1em;
+}
+
+.employHeaderContentItem > h5{
+  width: 70%;
+}
+
+.empoyContentList{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2em;
+}
+
+.employStatsItem{
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-around;
+}
+
+.employerCareer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.employerCareerItem{
+  margin: 3em;
+}
+
+.coopTableItem{
+  border: 1px solid grey;
+  padding: 1em;
+  margin: 1em;
+  width: 250px;
+  background-color: rgb(232, 232, 232);
+  border-radius: 5%;
+}
+
+.coopTable{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.coopMain{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
